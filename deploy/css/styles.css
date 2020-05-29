@@ -344,9 +344,50 @@ textarea {
 /* =============
     Header
 ============= */
+header {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  background-color: white;
+  position: fixed; }
+  header div {
+    display: grid;
+    grid-template-columns: 20% 2fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: "logo natural bath hair fragrance skincare"; }
+    header div #logo {
+      grid-area: logo;
+      height: 40px;
+      padding: 10px; }
+    header div #logo-container {
+      grid-area: natural;
+      padding: 10px;
+      text-align: left;
+      font-family: "Gothic A1", sans-serif;
+      font-weight: 900;
+      font-size: 50px;
+      color: coral; }
+    header div #nav-container > #bath {
+      display: grid;
+      grid-area: bath; }
+    header div #nav-container > #hair {
+      display: grid;
+      grid-area: hair; }
+    header div #nav-container > #fragrance {
+      display: grid;
+      grid-area: fragrance; }
+    header div #nav-container > #skincare {
+      display: grid;
+      grid-area: skincare; }
+
 /* =============
     Footer
 ============= */
 /* =============
     Section 1
 ============= */
+#section-1 {
+  background-image: url("../img/section-1/hero.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 800px; }
