@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="17px" viewBox="0 0 14 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>PROFILE</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0.444444444 0 8.44444444 0 8.44444444 8 0.444444444 8"></polygon>
+        <polygon id="path-3" points="0 0 14 0 14 8 0 8"></polygon>
+        <path d="M14,4.79931094 L14,6.39793282 C14,7.28165375 13.374677,8 12.5994832,8 L1.4005168,8 C0.625322997,8 0,7.28165375 0,6.39793282 L0,4.79931094 C0,2.14814815 1.88242894,0 4.2002584,0 L4.5129199,0 C5.28178295,0.425495263 6.11886305,0.666666667 7,0.666666667 C7.88113695,0.666666667 8.7248062,0.425495263 9.4870801,0 L9.7997416,0 C12.118863,0 14,2.14814815 14,4.79931094" id="path-5"></path>
+        <filter x="-50.0%" y="-62.5%" width="200.0%" height="275.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav" transform="translate(-888.000000, -62.000000)">
+            <g id="PROFILE" transform="translate(888.000000, 62.000000)">
+                <g id="Group-3" transform="translate(2.555556, 0.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M4.44444444,8 C2.23901809,8 0.444444444,6.20542636 0.444444444,4 C0.444444444,1.79457364 2.23901809,0 4.44444444,0 C6.6498708,0 8.44444444,1.79457364 8.44444444,4 C8.44444444,6.20542636 6.6498708,8 4.44444444,8 Z" id="Fill-1" fill="#E4808D" mask="url(#mask-2)"></path>
+                </g>
+                <g id="Group-6" transform="translate(0.000000, 9.000000)">
+                    <mask id="mask-4" fill="white">
+                        <use xlink:href="#path-3"></use>
+                    </mask>
+                    <g id="Clip-5"></g>
+                    <g id="Fill-4" mask="url(#mask-4)">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill="#E4808D" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

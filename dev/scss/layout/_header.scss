@@ -1,57 +1,64 @@
 /* =============
     Header
 ============= */
-header{
-    left: 0;
-    top: 0;
+nav {
     width: 100%;
-    height: auto;
-    background-color: white;
-    position: fixed;
-    
-    div {
-        display: grid;
-        grid-template-columns: 20% 2fr 1fr 1fr 1fr 1fr; 
-        grid-template-areas: "logo natural bath hair fragrance skincare";
-        
-        #logo{
-            grid-area: logo;
-            height: 40px;
-            padding: 10px;
+    background-color: $white;
+    display: flex;
+    overflow: none;
+    position: relative;
+
+    #logo {
+        height: 90px;
+        width: 335px;
+        padding: 10px 50px;
+        float: left;
+    }
+
+    #nav-container {
+        ul {
+            display: flex;
+            float: right;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 0;
+            width: auto;
         }
 
-        #logo-container{
-            grid-area: natural;
-            padding: 10px;
-            text-align: left;
-            font-family: "Gothic A1", sans-serif;
-            font-weight: 900;
-            font-size: 50px;
-            color: coral;
+        li {
+            float: right;
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+
+            a {
+                color: $blue;
+                display: block;
+                font-family: "Lobster Two", serif;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+                -webkit-transition: all .25s ease;
+                -moz-transition: all .25s ease;
+                -ms-transition: all .25s ease;
+                -o-transition: all .25s ease;
+                transition: all .25s ease;
+            }
         }
 
-        #nav-container { 
-
-                >#bath{
-                    display: grid;
-                    grid-area: bath;
-                }
-                
-                >#hair{
-                    display: grid;
-                    grid-area: hair;
-                }
-
-                >#fragrance{
-                    display: grid;
-                    grid-area: fragrance;
-                }
-
-                >#skincare{
-                    display: grid;
-                    grid-area: skincare;
-                }
-
+        li:hover a {
+            background: $white;
+            color: $gold;
         }
     }
+}
+
+nav{
+    border-bottom: 8px solid $gold;
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    margin: 0 auto;
 }

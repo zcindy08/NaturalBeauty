@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="17px" height="15px" viewBox="0 0 17 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>heart</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Nav" transform="translate(-965.000000, -64.000000)" fill="#E4808D" fill-rule="nonzero">
+            <path d="M974.250609,78.6760564 L980.67529,71.986454 C982.544616,70.0411904 982.435022,66.820261 980.349912,65.0256316 C978.530422,63.4620705 975.824419,63.7432957 974.154341,65.481 L973.500245,66.1606684 L972.84615,65.481 C971.179378,63.7432957 968.470068,63.4620705 966.650578,65.0256316 C964.565469,66.820261 964.455874,70.0411904 966.321861,71.986454 L972.746542,78.6760564 C973.161573,79.1079812 973.835577,79.1079812 974.250609,78.6760564 Z" id="heart"></path>
+        </g>
+    </g>
+</svg>

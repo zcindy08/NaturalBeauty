@@ -1,3 +1,31 @@
 /* =============
     Section 3
 ============= */
+#section-3 {
+    background-color: $yellow;
+    height: 540px;
+    width: 100%;
+    margin: 0px;
+    padding-top: 30px;
+
+    h1 {
+        font-family: "Lobster Two", serif;
+        color: $blue;
+        font-size: 50px;
+        padding: 30px 50px;
+    }
+
+    #product-container {
+        >ul {
+            display: flex;
+            list-style-type: none;
+            margin: 0 auto;
+            width: auto;
+        }
+
+        li{
+            padding: 0 30px;
+            width: 100%;
+        }
+    }
+}

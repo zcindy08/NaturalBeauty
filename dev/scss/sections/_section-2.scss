@@ -2,7 +2,23 @@
     Section 2
 ============= */
 #section-2{
-        background-color: $pink !important;
-        height: auto;
-        width: 100%;
+    background-color: $pink;
+    height: 640px;
+    width: 100%;    
+
+    background-image: url("../img/section-2/natural-1.jpg");
+    background-position: center;
+    background-size: 60%;
+    background-position: 75% 25%;
+    background-repeat: no-repeat;
+    padding-top: 30px;
+
+    >aside{
+        h1{
+            font-family: "Lobster Two", serif;
+            color: $blue;
+            font-size: 60px;
+            padding: 70px;
+        }
+    }
 }   
