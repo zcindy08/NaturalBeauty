@@ -429,6 +429,10 @@ footer {
     footer #text li:hover a {
       background: #77A9AC;
       color: #F1D075; }
+  footer #media {
+    font-family: "Gothic A1", sans-serif;
+    color: #fff;
+    font-size: 20px; }
 
 /* =============
     Section 1

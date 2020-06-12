@@ -45,6 +45,21 @@ footer {
             background: $teal;
             color: $gold;
         }
+    }
+
+    #media{
+        font-family: "Gothic A1", sans-serif;
+        color: $white;
+        font-size: 20px;
+
+        h1{}
+
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin: 0 auto;
+            padding: 5px;
+        }
 
     }
 }
