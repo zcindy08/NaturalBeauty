@@ -433,6 +433,11 @@ footer {
     font-family: "Gothic A1", sans-serif;
     color: #fff;
     font-size: 20px; }
+    footer #media ul {
+      display: flex;
+      list-style-type: none;
+      margin: 0 auto;
+      padding: 5px; }
 
 /* =============
     Section 1
@@ -536,8 +541,6 @@ footer {
     font-size: 60px;
     padding: 40px; }
   #section-5 #sale-gallery {
-    height: 500px;
-    width: auto;
     display: grid;
     grid-template-columns: 40px auto 40px;
     grid-template-areas: ". sale .";
@@ -545,23 +548,14 @@ footer {
     #section-5 #sale-gallery ul {
       display: grid;
       grid-area: sale;
-      grid-gap: 20px;
-      grid-template-areas: "sale-1" "sale-2" "sale-3";
-      list-style-type: none;
-      margin: 0 auto;
-      height: auto;
-      width: 940px; }
+      grid-template-areas: "sale-1" "sale-2" "sale-3" "sale-3"; }
       #section-5 #sale-gallery ul li {
-        background-position: center;
-        background-size: contain;
+        grid-area: sale;
         width: 100%;
         padding: 5px 8px; }
-        #section-5 #sale-gallery ul li #1 {
-          background-image: url("../img/section-5/sale-1.jpg");
+        #section-5 #sale-gallery ul li .sale-1 {
           grid-area: sale-1; }
-        #section-5 #sale-gallery ul li #2 {
-          background-image: url("../img/section-5/sale-2.jpg");
+        #section-5 #sale-gallery ul li .sale-2 {
           grid-area: sale-2; }
-        #section-5 #sale-gallery ul li #3 {
-          background-image: url("../img/section-5/sale-3.jpg");
+        #section-5 #sale-gallery ul li .sale-3 {
           grid-area: sale-3; }
